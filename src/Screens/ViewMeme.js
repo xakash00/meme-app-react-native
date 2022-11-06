@@ -179,13 +179,7 @@ const ViewMeme = ({route, navigation}) => {
         <ModalScreen color={theme.mode === 'dark' ? '#000' : '#fff'}>
           <Button onPress={checkPermission}>
             <Row>
-              <Icon
-                source={
-                  theme.mode === 'dark'
-                    ? require('../assets/downloadW.png')
-                    : require('../assets/downloadB.png')
-                }
-              />
+              <Icon source={require('../assets/download.png')} />
               <StyledText
                 numberOfLines={1}
                 align="left"
@@ -203,13 +197,7 @@ const ViewMeme = ({route, navigation}) => {
               });
             }}>
             <Row>
-              <Icon
-                source={
-                  theme.mode === 'dark'
-                    ? require('../assets/redditw.png')
-                    : require('../assets/redditb.png')
-                }
-              />
+              <Icon source={require('../assets/reddit.png')} />
               <StyledText
                 numberOfLines={1}
                 align="left"

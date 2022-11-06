@@ -2,7 +2,7 @@ import React from 'react';
 import {Text, View} from 'react-native';
 import {useSelector} from 'react-redux';
 import { SizeConfig } from '../helpers/size';
-import Theme from '../helpers/theme';
+import Theme from './theme';
 import {
   appStyles,
   HeaderContainer,

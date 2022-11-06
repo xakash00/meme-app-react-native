@@ -28,7 +28,7 @@ const Theme = () => {
   return (
     <ToggleSwitch
       isOn={theme.mode === 'dark' ? true : false}
-      onColor="#1746A2"
+      onColor="#00C5B3"
       offColor="#ccc"
       size="small"
       onToggle={handleThemeChange}

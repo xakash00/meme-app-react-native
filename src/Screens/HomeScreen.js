@@ -55,8 +55,7 @@ const HomeScreen = ({navigation}) => {
 
   useEffect(() => {
     getUsers();
-  }, [count]);
-
+  }, [count, refreshing]);
   return (
     <>
       <Header />

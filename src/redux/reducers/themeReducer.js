@@ -1,15 +1,9 @@
 import {THEME_CHANGE} from '../action/types';
 
 const initialState = {
-  mode: 'light',
+  mode: 'dark',
 };
-const storeData = async (value) => {
-  try {
-    await AsyncStorage.setItem('@storage_Key', "value")
-  } catch (e) {
-    // saving error
-  }
-}
+
 // Handle our action of changing the theme
 const themeReducer = (state = initialState, action) => {
   switch (action.type) {
